@@ -1,0 +1,159 @@
+
+@media (max-width: 2000px){
+    .animess{
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+    .page-content3{
+        padding: 3% 0% 8% 0%;
+    }
+}
+
+@media (max-width: 1800px){
+    .animess{
+        font-size: 22px;
+        color: red;
+    }
+    .page-content3{
+        padding: 10% 0% 8% 0%;
+		padding-bottom: 5%;
+    }
+	.page-content{
+		padding-top: 8%;
+	}
+
+	/*onepiece*/
+	.page-content4{
+		min-height: 95vh;
+		/*font-size: 40px;*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: -150px;
+		padding-top: 25%;
+	}
+	
+	.page-content7{
+		min-height: 90vh;
+		/*font-size: 40px;*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: -150px;
+	}
+	.rating{
+        position: absolute;
+        bottom: 400px;
+        right: 1055px;
+        display: flex;
+    }
+    .page-content4{
+        min-height: 95vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -150px;
+        padding-top: 25%;
+    }
+    .page-content6{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -1060px;
+        padding-top: 53%;
+    }
+    .page-content5{
+        min-height: 111vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -950px;
+        padding-top: 54%;
+    }
+    
+
+}
+
+@media (max-width: 1400px){
+    .animess{
+        font-size: 22px;
+        color: green;
+		margin-left: 1.5em;
+    }
+    .page-content3{
+        padding-top: 10%;
+    }
+    .page-content{
+        padding-top: 5%;
+    }
+}
+
+/*pantalla muy chica*/
+@media (max-width: 1090px){
+	#menu-icon{
+		display: block;
+	}
+	.navbar{
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		width: 270px;
+		height: 29vh;
+		background: var(--main-color);
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		border-radius: 10px;
+		transition: all .50s ease;
+	}
+	.navbar a{
+		display: block;
+		margin: 12px 0;
+		padding: 0px 25px;
+		transition: all .50s ease;
+	}
+	.navbar a:hover{
+		color: var(--text-color);
+		transform: translateY(5px);
+	}
+	.navbar a.active{
+		color: var(--text-color);
+	}
+	.navbar.open{
+		right: 2%;
+	}
+    .animess{
+        font-size: 22px;
+        color: blue;
+        margin-left: 1.5em;
+    }
+    .page-content{
+        padding-top: 8%;
+    }
+    .page-content3{
+        padding-top: 15%;
+    }
+    .home{
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+/*celular*/
+@media screen and (max-width: 960px) {
+    .footer-container{
+    max-width: 600px;
+    }
+
+    .center-col{
+    width: 100%;
+    text-align: center;
+
+    }
+}
+
+@media(max-width: 767px){
+	.controls{
+		display: none;
+	}
+}
